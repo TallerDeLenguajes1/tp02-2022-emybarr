@@ -15,7 +15,7 @@ srand((int)time(NULL));
 
 for(i=0;i < N ; i++){
     *(pn + i)= 1 + rand()% 100 ;
-    printf("%d ", *(pn + i) );
+    printf("%.1f ", *(pn + i) );
 }
 
     return 0; 
