@@ -15,12 +15,8 @@ int main(){
 
         vt[i] = 1 + rand() % 100;
         printf ("%.1f    " , vt[i]);
-
-        vt[i] = 1 + rand()% 100 ;
-        printf ("%d  " , vt[i]);
-
-       
-    }
+        
+          }
 
 return 0;
 }
